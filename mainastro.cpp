@@ -1,8 +1,12 @@
 #include "libastrowrapper.h"
 
+
+using namespace xephemlib;
+
 int main(int argc, char** argv)
 
 {
+
 
    SolarSystemBody* p =   new SolarSystemBody(JUPITER);
    std::cout << "New SolarSystemBody done" << std::endl;

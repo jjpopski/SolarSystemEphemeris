@@ -1,3 +1,6 @@
 *.o
 test*
-libastro/*.o
+./libastro/*.o
+.vscode/
+mainastro
+libastro/libastro.a
